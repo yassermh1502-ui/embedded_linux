@@ -1,0 +1,12 @@
+# ---------------------------------------------------------
+# Ignore files without a dot in their name
+# ---------------------------------------------------------
+
+# Ignore all files by default
+*
+
+# Track directories so Git can traverse them
+!*/
+
+# Track files that contain a dot anywhere in their name (have extension)
+!*.* 
